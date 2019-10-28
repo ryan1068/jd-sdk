@@ -1,0 +1,35 @@
+{
+  "name": "ryan1068/yii2-jd-sdk",
+  "description": "京东SDK",
+  "keywords": [
+    "yii2",
+    "jd-sdk",
+    "sdk"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ryan",
+      "email": "1042107393@qq.com"
+    }
+  ],
+  "require": {
+    "php":">=5.5.0",
+    "ext-openssl": "*",
+    "pimple/pimple": "~3.0",
+    "monolog/monolog": "^1.17",
+    "doctrine/cache": "~1.4",
+    "guzzlehttp/guzzle": "~6.2",
+    "symfony/http-foundation": "~2.6|~2.7|~2.8|~3.0",
+    "symfony/psr-http-message-bridge": "~0.3|^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0",
+    "mockery/mockery": "^0.9.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "JDSDK\\": "src/"
+    }
+  }
+}

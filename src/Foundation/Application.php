@@ -16,9 +16,9 @@ use Psr\SimpleCache\CacheInterface;
 /**
  * Class Application.
  *
- * @property \common\components\jd\Core\AccessToken        $access_token
- * @property \common\components\jd\Goods\Goods             $goods
- * @property \common\components\jd\Order\Order             $order
+ * @property \JDSDK\Core\AccessToken        $access_token
+ * @property \JDSDK\Goods\Goods             $goods
+ * @property \JDSDK\Order\Order             $order
  *
  */
 class Application extends Container

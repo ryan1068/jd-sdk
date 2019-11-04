@@ -27,15 +27,14 @@ return [
 调用方式：
 
 ```php
+//模块化调用
 //订单模块：
 $order = \Yii::$app->jd->order;
 $order->confirmOrder($jdOrderId, $companyPayMoney);
-$order->doPay($jdOrderId)
 
 //商品模块：
 $goods = \Yii::$app->jd->goods;
 $goods->queryDetail($sku, $queryExts);
-$goods->queryCommentSummarys($sku, $queryExts)
 ```
 
 本项目有借鉴easywechat的编程思路，在此感谢[overtrue](https://github.com/overtrue)！

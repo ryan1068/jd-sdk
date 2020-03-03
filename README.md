@@ -37,4 +37,4 @@ $goods = \Yii::$app->jd->goods;
 $goods->queryDetail($sku, $queryExts);
 ```
 
-本项目有借鉴easywechat的编程思路，在此感谢[overtrue](https://github.com/overtrue)！
+本项目借鉴了easywechat的编程思路，在此感谢[overtrue](https://github.com/overtrue)！

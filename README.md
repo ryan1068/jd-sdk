@@ -27,7 +27,6 @@ return [
 调用方式：
 
 ```php
-//模块化调用
 //订单模块：
 $order = \Yii::$app->jd->order;
 $order->confirmOrder($jdOrderId, $companyPayMoney);
